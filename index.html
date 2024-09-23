@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="drafts">Taslak</div>
+        </div>
+
+        <!--Filter Start-->
+        <div class="list-filter">
+            <select>
+                <option>Herkes</option>
+            </select>
+        </div>
+        <!--Filter Finish-->
+
+        <div class="input-box">
+            <div class="tweet-area">
+                <span class="placeholder">Neler Oluyor?</span>
+                <div class="input editable" contenteditable="true" spellcheck="false"></div>
+                <div class="input readonly"></div>
+                <div class="privacy">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <span>Herkes Yanıtlayabilir</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <ul class="icons">
+                    <li><i class="fa-solid fa-file-image"></i></li>
+                    <li><i class="fa-solid fa-location-dot"></i></li>
+                    <li><i class="fa-regular fa-face-smile"></i></li>
+                    <li><i class="fa-solid fa-user"></i></li>
+                </ul>
+                <div class="content">
+                    <span class="counter" id="counter">280</span>
+                    <div class="line"></div>
+                    <i class="fa-solid fa-plus"></i>
+
+                    <button class="button" id="button">Gönderi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Basic Yükseltme Modal -->
+    <div class="container" id="container">
+        <div class="modal" id="modal">
+            <h1>Premium Basic kademesine geçerek daha uzun gönderi özelliğini aç</h1>
+            <p>daha uzun gönderi özelliğine yalnızca Premium Basic aboneleri erişebilir. Devam etmek için hesabını
+                yükselt.</p>
+            <div class="buttons">
+                <button class="upgrade">Yükselt</button>
+                <button class="later">Belki daha sonra</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
