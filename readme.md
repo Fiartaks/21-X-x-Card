@@ -1,7 +1,7 @@
-# 🌐 X Uygulaması- X Gönderi Oluşturma Arayüzü🌐
+# 🅧 X Uygulaması- X Gönderi Oluşturma Arayüzü 🅧
 
-Bu projede, bir tweet oluşturma kartı arayüzü oluşturmak için HTML, CSS ve JavaScript kullanıldı. 
-Kullanıcılar, tweetlerini yazabilir ve karakter sınırını gözeterek göndermek için bir kullanıcı arayüzü sunar.
+Bu projede, eski adıyla Twitter yeni adıyla X uygulamasının gönderi oluşturma kartı arayüzü oluşturmak için HTML, CSS ve JavaScript kullanıldı. 
+Kullanıcılar, gönderi yazabilir ve karakter sınırını gözeterek göndermek için bir kullanıcı arayüzü sunar. Ayrıca karakter sınırının aşılması durumunda premium basic teklifi yapılması otomatik aktif edildi.
 
 ## 💼 Sunum
 ![](x.gif)
@@ -11,8 +11,8 @@ Kullanıcılar, tweetlerini yazabilir ve karakter sınırını gözeterek gönde
 
 ## 📚 Özellikler
 
-- **🖊️ Tweet Girişi: Kullanıcılar tweetlerini yazabilir.
-- **🔄 Karakter Sınırı: 140 karakter sınırı vardır ve karakter sayacı ile takip edilmesini sağlar.
+- **🖊️ Gönderi Girişi: Kullanıcılar gönderisini yazabilir.
+- **🔄 Karakter Sınırı: 280 karakter sınırı vardır ve karakter sayacı ile takip edilmesini sağlar.
 - **🌍 Gizlilik Ayarları: Basit gizlilik ayar simgeleri (örneğin, dünya ikonu).
 - **🎈 Emoji ve İkonlar: Font Awesome entegrasyonu ile ikonlar ve emoji desteği.
 
@@ -24,9 +24,8 @@ Kullanıcılar, tweetlerini yazabilir ve karakter sınırını gözeterek gönde
 - **🔄 Klavyeden giriş yapılmadığında placeholder'ın tekrar gelmesi
 - **✅ Eğer klavye girişi varsa gönderi butonunun aktif olması
 - **🚫 Eğer kullanıcı limiti geçmişse gönderi butonunun pasif olması
-- **💎 Eğer kullanıcı limiti geçmişse ekrana bi yere basmadan otomatik 
-    display'i none olan container clasın bir anda ekrana gelip Premium Basic kademesine 
-     geçmesi talimatı ve ona bağlı butonların oluşturulması
+- **💎 Eğer kullanıcı limiti geçmişse ekranın herhangi bir yerine basmadan otomatik 
+       premium basic teklifi yapılmasının otomatik aktif edilmesi.
 
 
 ### 🔧 Kullanılan Teknolojiler
